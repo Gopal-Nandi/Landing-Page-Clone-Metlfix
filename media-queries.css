@@ -1,0 +1,119 @@
+@media screen and (max-width: 959px) {
+    
+    :root {
+        --padding-bottom: 110px;
+        --margin-top: 140px;
+    }
+
+    h1 {
+    font-size: 2rem;
+    }
+
+    h2 {
+    font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+    
+    p {
+        font-size: 1.125rem;
+    }
+
+    .companie-icon img {
+        width: 91px;
+    }
+
+    .sighin-btn {
+        gap: 10px;
+    }
+
+    .big-feature-container {
+        flex-direction: column;
+    }
+
+    #mobile-big-feature {
+        flex-direction: column-reverse;
+    }
+
+    #kids-big-feature {
+        flex-direction: column-reverse;
+    }
+
+    .left-feature {
+        padding-inline: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .right-feature {
+        text-align: center;
+        width: 100%;
+    }
+
+    .qna-btn {
+        font-size: 1.125rem;
+    }
+
+    .fa-plus {
+        font-size: 1.125rem;
+    }
+
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .header-txt h3 {
+        padding-inline: 50px;
+    }
+
+    
+}
+
+@media screen and (max-width: 635px) {
+
+    :root {
+        --padding-bottom:50px;
+        --margin-top: 60px;
+    }
+
+    .get-started {
+        flex-direction: column;
+    }
+
+    .login-input {
+        width: 85%;
+        height: 47px;
+    }
+
+    .get-started a{
+        font-size: 18px;
+    }
+
+    .lang-bar {
+        width: 70px;
+        overflow: hidden;
+        gap: 20px;
+    }
+
+    .dropdown {
+        visibility: visible;
+    }
+
+    .lang {
+        display: none;
+    }
+    
+    .list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 407px) {
+
+    .list {
+        grid-template-columns: 1fr;
+    }
+}
